@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/formulario.css">
+    <link rel="stylesheet" href="assets/css/haeder.css">
+    <title>Document</title>
+</head>
+<body>
+    <header data-header="formulario">
+    </header>
+    <main class="master">
+        <section class="form">
+            <h1>Formulario de Contacto</h1>
+            <form action="" id="formulario" class="formulario">
+
+                <div class="group-form">
+                    <label for="">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required placeholder="Ingresa tu nombre">
+                    <span></span>
+                </div>
+                <div class="group-form">
+                    <label for="">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" required placeholder="Ingresa tu apellido">
+                    <span></span>
+                </div>
+                <div class="group-form">
+                    <label for="perfil">Foto de perfil</label>
+                    <input type="file" name="foto" id="foto" />
+                    
+                </div>
+                <div class="group-form">
+                    <label for="">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="Ingresa tu mail">
+                    <span></span>
+                </div>
+                <div class="group-form">
+                    <label for="">Telefono</label>
+                    <input type="number" name="telefono" id="telefono" required placeholder="Ingresa tu numero de telefono">
+                    <span></span>
+                </div>
+
+                <div class="group-form">
+                <h3>Que edad tienes</h3>
+                    <select name="" id="">
+                        <option value="default" selected>Seleccionar</option>
+                        <option value="seis-ocho">6-8</option>
+                        <option value="nueve-once">9-11</option>
+                    </select>
+                </div>
+
+                <div class="group2-form">
+                    <h3>Que deseas aprender?</h3>
+                    <input type="radio" name="cuenta"  id="sumas" checked>
+                    <label for="" class="cuenta">Sumas</label>
+                    <br>
+                    <input type="radio" name="cuenta"  id="restas" >
+                    <label for="" class="cuenta">Restas</label>
+                    <br>
+                    <input type="radio" name="cuenta"  id="multiplicacion" >
+                    <label for="" class="cuenta">Multiplicacion</label>
+                    <br>
+                </div>
+
+                <div class="group3-form">
+                    <button type="submit">Enviar</button>
+                </div>
+
+                <a href=""></a>
+                <!--poner link de referencia al index-->
+                <button type="button">Volver al inicio</button>
+
+            </form>
+        </section>
+    </main>
+    <script src="./formulario.js" type="module"></script>
+    <script src="assets/js/validar_formulario.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+/* img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+} */
+
+.principal{
+    background: #cccccc;
+    padding: 20px;
+    border: 2px solid rgb(34, 58, 119);
+}
+
+p{
+   text-align: center;
+}
+body{
+   background-image: url('./banner/banner.jpg');
+   /* background-size: cover; */
+}
+
