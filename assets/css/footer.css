@@ -1,0 +1,34 @@
+footer {
+    margin-top: 15px;
+    background-color: #cfb859;
+    padding: .5rem;
+}
+
+.footer__section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__nena{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.footer__text{
+    font-size: 40px;
+    font-family: cursive;
+    color: aliceblue;
+    text-align: center;
+ }
+
+.footer__sentidos{   
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.footer__redes{
+    
+}

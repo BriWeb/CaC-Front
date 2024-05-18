@@ -2,18 +2,18 @@ h1{
     color:#21618C;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: absolute;
-    padding-top: 80px;
-    padding-left: 20px;
+    /* position: absolute; */
+    /* padding-top: 80px; */
+    /* padding-left: 20px; */
 }
 
 h2{
     font-size: 22px;
     color: rgb(201, 64, 64);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: absolute;
-    padding-top: 20%;
-    padding-left: 14%;
+    /* position: absolute; */
+    /* padding-top: 20%; */
+    /* padding-left: 14%; */
     font-weight: bold;
 }
 
@@ -35,26 +35,6 @@ h2{
     margin-top: 2%;
 }
 
-body{
-    background-color: lightyellow;
-}
-
-section.final{
-    margin-top: 15px;
-}
-
-p.e{
-   background-color: #cfb859;
-   border:solid 50px #c09c0b;
-   padding-left: 159px;
-   border-radius:50px;
-   font-size: 40px;
-   font-family: cursive;
-   color: aliceblue;
-   padding-top: 10px;
-   box-shadow: 1px 1px 5px #000;
-   text-align: justify;
-}
 
 .imgInicio{
     display: flex;
@@ -100,21 +80,4 @@ p.e{
 td , th{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-.nena{
-    width: 150px;
-    height: 150px;
-    border-radius: 15px;
-    position: absolute;
-    left: 50px;top: 1805px;
-    box-shadow: 5px 5px 5px #000;
-}
-
-.sentidos{   
-    border-radius: 15px;
-    position: absolute;
-    /*box-shadow: 5px 5px 5px #000;*/
-    left: 970px;
-    top: 1825px;
 }

@@ -3,7 +3,7 @@ import fetchHTML from "./assets/js/fetchHTML.js";
 document.addEventListener("DOMContentLoaded", e => {
 
   let $header = document.querySelector("header");
-//   let $footer = document.querySelector("footer");
+  let $footer = document.querySelector("footer");
 
   fetchHTML({
     url: 'assets/elements/header.html',
@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", e => {
       }
   });
 
-//   fetchHTML({
-//     url: 'assets/elements/footer.html',
-//     success: (footer) => $footer.innerHTML = footer
-//   });
+  fetchHTML({
+    url: 'assets/elements/footer.html',
+    success: (footer) => $footer.innerHTML = footer
+  });
 
 
 })

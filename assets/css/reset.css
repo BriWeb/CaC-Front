@@ -18,15 +18,14 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     display: flex;
-    display: -webkit-box;
     display: -ms-flexbox;
     flex-direction: column;
+    justify-content: space-between;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     /* font-family: ; */
-    background-color: var(--bg-color);
-    color: var(--font-color);
+    background-color: lightyellow;
   }
   
   form,

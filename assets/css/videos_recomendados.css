@@ -43,9 +43,6 @@ section article img {
 }
   
 @media (min-width: 426px) {
-    body {
-        background-color: chartreuse;
-    }
     section article {
         width: 40%;
         margin-left: 5%;
@@ -58,9 +55,6 @@ section article img {
 }
 
 @media (min-width: 769px) {
-    body {
-        background-color: aquamarine;
-    }
     section article {
         border: 1px solid blue;
         width: 23%;
