@@ -1,20 +1,28 @@
-h1{
-    color:#21618C;
-    font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* position: absolute; */
-    /* padding-top: 80px; */
-    /* padding-left: 20px; */
+.imgInicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h2{
-    font-size: 22px;
+.imgInicio__container{
+    position: relative;
+}
+.imgInicio_text-neuro{
+    position: absolute;
+    color:#21618C;
+    font-size: 25px;
+    z-index: 10;
+    top: 70px;
+    left: 17px;
+}
+.imgInicio_text-apren{
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
     color: rgb(201, 64, 64);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* position: absolute; */
-    /* padding-top: 20%; */
-    /* padding-left: 14%; */
     font-weight: bold;
+    top: 78%;
+    left: 36.5%;
 }
 
 .frase{
@@ -27,23 +35,15 @@ h2{
 .as{
     font-style: italic;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color:#21618C;
-    margin-left: 10%;
-    margin-bottom: 5%;
-    margin-top: 2%;
+    margin: 2rem auto;
 }
 
-
-.imgInicio{
-    display: flex;
-}
 
 .t{
     width: 400px;
     height: 400px;
-    margin-right: 0%;
 }
 
 .y{
@@ -55,7 +55,6 @@ h2{
     width: 300px;
     height: 300px;
     border-radius: 15px;
-    margin-left: 10%;
 }
 .c1{
     width: 300px;
@@ -76,8 +75,4 @@ h2{
 .c5{
     width: 300px;
     height: 200px;
-}
-td , th{
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -24,7 +24,7 @@ body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    /* font-family: ; */
+    font-family: "Roboto", sans-serif;
     background-color: lightyellow;
   }
   
@@ -42,6 +42,7 @@ body {
   td {
     border-collapse: collapse;
     border-spacing: 0;
+    border: 1px solid black;
   }
   
   img {
@@ -55,7 +56,9 @@ body {
     max-width: 100%;
     height: auto;
   }
-
+  iframe{
+    border: none;
+  }
   ul {
     list-style-type: none;
     margin: 0;

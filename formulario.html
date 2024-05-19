@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="assets/css/formulario.css">
     <link rel="stylesheet" href="assets/css/haeder.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/img/fronted.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -14,65 +20,70 @@
     </header>
     <main class="master">
         <section class="form">
-            <h1>Formulario de Contacto</h1>
-            <form action="" id="formulario" class="formulario">
+            <!-- <h1>Formulario de Contacto</h1> -->
+            <form id="formulario" class="formulario">
+                <fieldset>
+                    <legend>Formulario de Contacto</legend>
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <div class="group-form">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" required placeholder="Ingresa tu nombre">
+                            <span></span>
+                        </div>
+                        <div class="group-form">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="apellido" id="apellido" required placeholder="Ingresa tu apellido">
+                            <span></span>
+                        </div>
+                        <div class="group-form">
+                            <label for="foto">Foto de perfil</label>
+                            <input type="file" name="foto" id="foto" />
+                            
+                        </div>
+                        <div class="group-form">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required placeholder="Ingresa tu mail">
+                            <span></span>
+                        </div>
+                        <div class="group-form">
+                            <label for="telefono">Telefono</label>
+                            <input type="tel" name="telefono" id="telefono" required placeholder="Ingresa tu numero de telefono">
+                            <span></span>
+                        </div>
+    
+                        <div class="group-form">
+                            <h3>¿Que edad tienes?</h3>
+                            <select name="edad" id="edad">
+                                <option value="default" selected>Seleccionar</option>
+                                <option value="seis-ocho">6-8</option>
+                                <option value="nueve-once">9-11</option>
+                            </select>
+                        </div>
+                    </fieldset>
 
-                <div class="group-form">
-                    <label for="">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" required placeholder="Ingresa tu nombre">
-                    <span></span>
-                </div>
-                <div class="group-form">
-                    <label for="">Apellido</label>
-                    <input type="text" name="apellido" id="apellido" required placeholder="Ingresa tu apellido">
-                    <span></span>
-                </div>
-                <div class="group-form">
-                    <label for="perfil">Foto de perfil</label>
-                    <input type="file" name="foto" id="foto" />
-                    
-                </div>
-                <div class="group-form">
-                    <label for="">Email</label>
-                    <input type="email" name="email" id="email" required placeholder="Ingresa tu mail">
-                    <span></span>
-                </div>
-                <div class="group-form">
-                    <label for="">Telefono</label>
-                    <input type="number" name="telefono" id="telefono" required placeholder="Ingresa tu numero de telefono">
-                    <span></span>
-                </div>
+                    <fieldset>
+                        <legend>¿Que deseas aprender?</legend>
+                        <div class="radio-container">
+                            <input type="radio" name="cuenta" id="sumas" checked>
+                            <label for="sumas" class="cuenta">Sumas</label>
+                        </div>
+                        <div class="radio-container">
+                            <input type="radio" name="cuenta" id="restas" >
+                            <label for="restas" class="cuenta">Restas</label>
+                        </div>
+                        <div class="radio-container">
+                            <input type="radio" name="cuenta" id="multiplicacion" >
+                            <label for="multiplicacion" class="cuenta">Multiplicacion</label>
+                        </div>
+                    </fieldset>
 
-                <div class="group-form">
-                <h3>Que edad tienes</h3>
-                    <select name="" id="">
-                        <option value="default" selected>Seleccionar</option>
-                        <option value="seis-ocho">6-8</option>
-                        <option value="nueve-once">9-11</option>
-                    </select>
-                </div>
+                    <div class="group3-form">
+                        <button type="submit">Enviar</button>
+                    </div>
 
-                <div class="group2-form">
-                    <h3>Que deseas aprender?</h3>
-                    <input type="radio" name="cuenta"  id="sumas" checked>
-                    <label for="" class="cuenta">Sumas</label>
-                    <br>
-                    <input type="radio" name="cuenta"  id="restas" >
-                    <label for="" class="cuenta">Restas</label>
-                    <br>
-                    <input type="radio" name="cuenta"  id="multiplicacion" >
-                    <label for="" class="cuenta">Multiplicacion</label>
-                    <br>
-                </div>
-
-                <div class="group3-form">
-                    <button type="submit">Enviar</button>
-                </div>
-
-                <a href=""></a>
-                <!--poner link de referencia al index-->
-                <button type="button">Volver al inicio</button>
-
+                    <a href=""></a>
+                </fieldset>
             </form>
         </section>
     </main>

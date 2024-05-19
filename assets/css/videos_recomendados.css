@@ -1,65 +1,36 @@
-main {
-    padding: 20px;
+
+.actividades {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* transition: all 0.5s ease; */
+}
+.actividades__article{
+    padding: 1rem;
 }
 
-.propuestas {
-    list-style: none;
-    padding: 0;
-}
-
-.propuestas li {
-    margin-bottom: 30px;
-}
-
-.propuestas h2 {
+.actividades__title {
     margin-bottom: 10px;
 }
 
-.propuestas p {
-    margin-top: 10px;
-    text-align: left;
-    width: 40%;
-}
-
-iframe {
-    width: 40%;
+.actividades__video{
     height: 300px;
-    
 }
-  
-section {
-    /* border: 1px solid red; */
-    width: 80%;
-    margin: 10px auto;
-}
-
-section article {
-    /* border: 1px solid blue; */
+.actividades__video, .actividades__procedimiento{
     width: 100%;
 }
 
-section article img {
-    width: 100%;
+.actividades__procedimiento{
+    margin-top: 10px;
 }
-  
-@media (min-width: 426px) {
-    section article {
-        width: 40%;
-        margin-left: 5%;
-        margin-right: 5%;
-        float: left;
-    }
-    section {
-        overflow: hidden;
+
+@media screen and (min-width: 768px) {
+    .actividades {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (min-width: 769px) {
-    section article {
-        border: 1px solid blue;
-        width: 23%;
-        margin-left: 1%;
-        margin-right: 1%;
+@media screen and (min-width: 1300px) {
+    .actividades {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
-  
