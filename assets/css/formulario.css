@@ -38,8 +38,12 @@ h3 {
 }
 
 select {
+  display: block;
   margin-top: 10px;
-  margin-left: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .3rem;
+  cursor: pointer;
 }
 
 .group2-form input,
@@ -49,6 +53,9 @@ label {
 
 input {
   align-items: center;
+  padding: .3rem;
+  font-size: 17px;
+  outline: none;
 }
 
 button {
