@@ -20,6 +20,21 @@
 .actividades__video{
     height: 300px;
 }
+
+.actividades__img, .actividades__video{
+    animation: .5s ease-out .5s both running video_animado;
+}
+@keyframes video_animado {
+    0%{
+        transform: translateX(70%) scale(.8);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%) scale(1);
+        opacity: 1;
+    }
+}
+
 .actividades__video, .actividades__procedimiento{
     width: 100%;
 }
@@ -27,6 +42,22 @@
 .actividades__procedimiento{
     margin-top: 10px;
 }
+
+hr{
+    width: 90%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle{
+    text-align: center;
+    margin-top: 2rem;
+    color: coral;
+    text-transform: uppercase;
+}
+
+
 
 @media screen and (min-width: 768px) {
     .actividades {
