@@ -1,5 +1,4 @@
 .form {
-  width: 400px;
   margin: 0 auto;
 }
 
@@ -54,7 +53,6 @@ label {
 input {
   align-items: center;
   padding: .3rem;
-  font-size: 17px;
   outline: none;
 }
 

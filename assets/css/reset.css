@@ -25,9 +25,14 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     font-family: "Roboto", sans-serif;
+    font-size: 15px;
     background-color: lightyellow;
   }
-  
+  main{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   form,
   input,
   textarea,

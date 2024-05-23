@@ -9,13 +9,14 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
-    max-width: 1200px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
 }
 .my-header__li{
     width: auto;
     height: auto;
+    max-width: 80px;
 }
 .my-header__li:hover .my-header__text{
     text-decoration: underline;
@@ -24,20 +25,33 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-
 .my-header__img{
-    width: 50px;
-    height: 50px;
-    margin-right: 1rem;
+    width: 40px;
+    height: 40px;
 }
 
 .my-header__text{
     color: white;
-    text-transform: uppercase;
+    text-align: center;
 }
 
 .my-header__text--is-active{
     color: red;
+}
+
+@media screen and (min-width: 768px) {
+    .my-header__link{
+        flex-direction: row;
+    }
+    .my-header__li{
+        max-width: 100%;
+    }
+    .my-header__img{
+        margin-right: 1rem;
+        width: 50px;
+        height: 50px;
+    }
 }

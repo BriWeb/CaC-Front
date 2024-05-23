@@ -3,13 +3,11 @@
 }
 
 section {
-  /* border: 1px solid red; */
   width: 80%;
   margin: 10px auto;
 }
 
 section article {
-  /* border: 1px solid blue; */
   width: 100%;
 }
 
